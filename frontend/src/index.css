@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --color-text-base: 79, 70, 229;
+    --color-text-muted: 199, 210, 254;
+    --color-text-inverted: 255, 255, 255;
+    --color-text-body: 0, 0, 0;
+    --color-text-body-muted: 107, 114, 128;
+    --color-fill: 67, 56, 202;
+    --color-button-accent: 255, 255, 255;
+    --color-button-accent-hover: 238, 242, 255;
+    --color-button-muted: 99, 102, 241;
+
+    --color-seat-available: 217, 217, 217;
+    --color-seat-selected: 113, 215, 117;
+    --color-seat-booked: 137, 137, 137;
+    --color-seat-reserved: 230, 213, 64;
+  }
+}
